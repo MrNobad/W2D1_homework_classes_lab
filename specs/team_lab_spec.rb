@@ -37,5 +37,9 @@ class TestSportTeam < MiniTest::Test
     assert_equal(false, team.check_player_name())
   end
 
-  
+  # def test_add_points_to_team
+  #   team = SportsTeam.new("CodeClan FC", ["Jack", "Bob", "Frank", "Farquar"], "Stevie Nobad", "Win")
+  #   team.win_lose = 0
+  #   assert_equal(1, team.win_lose())
+  # end
 end
